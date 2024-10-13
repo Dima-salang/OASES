@@ -68,3 +68,4 @@ def check_answers(student_answers, correct_answers):
 
 def calculate_stats(exam):
     print("Calculating stats...")
+    print("stats")
