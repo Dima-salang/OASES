@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ exam.exam_name }} Details</title>
+</head>
+<body>
+    <h1>{{ exam.exam_name }} - {{ exam.exam_subject }}</h1>
+    <p>Teacher: {{ exam.teacher.teacher_name }}</p>
+    <p>Date: {{ exam.exam_date }}</p>
+    <p>Number of Questions: {{ questions.count }}</p>
+
+    <a href="{% url 'start_exam' exam.pk %}">
+        <button>Start Exam</button>
+    </a>
+</body>
+</html>

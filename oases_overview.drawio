@@ -1,0 +1,114 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="0-QerznmA5IkTydVrWUM">
+    <mxGraphModel dx="989" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7knwJuJ-DECR1r2OqSim-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-1" target="7knwJuJ-DECR1r2OqSim-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-1" value="&lt;div&gt;Server&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-2" target="7knwJuJ-DECR1r2OqSim-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-2" value="Teacher" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="50" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-4" value="PDF File" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="110" y="340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-5" target="7knwJuJ-DECR1r2OqSim-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-5" value="&lt;div&gt;Transform into Exam&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="275" y="190" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7knwJuJ-DECR1r2OqSim-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-9" value="Digital Exam" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="425" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.661;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-9" target="7knwJuJ-DECR1r2OqSim-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="300" />
+              <mxPoint x="339" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.68;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.731;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-14" target="7knwJuJ-DECR1r2OqSim-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-14" value="PostgreSQL" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="275" y="510" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.171;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-1" target="7knwJuJ-DECR1r2OqSim-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="510" />
+              <mxPoint x="290" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-16" target="7knwJuJ-DECR1r2OqSim-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-16" value="Serve to API Endpoint" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="500" y="320" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.958;exitY=0.211;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-18" target="7knwJuJ-DECR1r2OqSim-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="860" y="353" />
+              <mxPoint x="860" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-18" value="API Endpoint" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="650" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.81;entryY=0.833;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-20" target="7knwJuJ-DECR1r2OqSim-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="390" />
+              <mxPoint x="890" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-20" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="940" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-25" value="&lt;div&gt;Student Connects&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="790" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-26" value="Serves Exam to Students" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="770" y="310" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7knwJuJ-DECR1r2OqSim-18" target="7knwJuJ-DECR1r2OqSim-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7knwJuJ-DECR1r2OqSim-28" value="Submit Exam" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="650" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X1TIeWaeRnYkrO5WajxK-1" value="Query for Processing" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="340" y="438" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X1TIeWaeRnYkrO5WajxK-2" value="Store Exam" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="438" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

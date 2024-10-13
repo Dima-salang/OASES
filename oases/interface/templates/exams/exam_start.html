@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Exam - {{ exam.exam_name }}</title>
+</head>
+<body>
+    <h1>{{ exam.exam_name }}</h1>
+    <form method="POST">
+        {% csrf_token %}
+        <ol>
+            {% for question in questions %}
+                <li>{{ question.question_text }}
+                    <ul>
+                        {% for choice in question.choice_set.all %}
+                            <li>
+                                <input type="radio" name="question_{{ question.pk }}" value="{{ choice.pk }}-{{ forloop.counter }}">
+                                {{ choice.choice_text }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ol>
+        <button type="submit">Submit Answers</button>
+    </form>
+</body>
+</html>
